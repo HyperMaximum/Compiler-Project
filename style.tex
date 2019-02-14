@@ -1,0 +1,67 @@
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{scale=0.8}
+\usepackage{setspace}
+\linespread{1.2}
+
+\usepackage{indentfirst}
+\usepackage{framed}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{bookmark}
+\usepackage{tabularx}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=magenta,     
+    urlcolor=cyan,
+}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathptmx}
+
+\usepackage{graphicx}
+\graphicspath{{Figures/}}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{graphs, automata, positioning, arrows.meta}
+\tikzset{
+	node distance=2cm, 
+	every state/.style={semithick, fill=gray!10},
+	initial text={}, 
+	double distance=2pt,
+	every edge/.style={draw,->,>=stealth',auto,semithick}
+}
+
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0, 0.6, 0}
+\lstset{
+	backgroundcolor = \color{white},
+	basicstyle=\footnotesize\ttfamily, 
+	breakatwhitespace = false,
+	breaklines = true,
+	captionpos = none,
+	commentstyle = \color{mygreen},
+	frame = single, 
+	keepspaces = true, 
+	keywordstyle = \color{blue},
+	language = Java, 
+	numbers = left, 
+	numbersep = 5pt, 
+	numberstyle = \tiny\color{purple}, 
+	rulecolor = \color{black},
+	showtabs = false, 
+	stepnumber = 1, 
+	tabsize = 4, 
+	title = \lstname
+}
